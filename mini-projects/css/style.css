@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin-left:30px;
+    font-size: 20px;
+    background-color: #f1f1f1;;
+    font-family: arial, sans-serif;
+}
+label {
+    font-size: 13px;
+}
+.box {
+    width: 600px;
+    min-height: 1000px;
+    background-color: #ffffff;
+    border: 1px;
+    padding: 10px
+}
+.control,.content {
+    border:1px solid #d5d5d5;
+    cursor: pointer;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.control {
+    width: 300px;
+    height: 30px;
+}
+.content {
+    width: 400px; 
+    height: 50px;
+    padding-top: 5px;
+}
+.control:hover,.content:hover {
+    border-color: #126db3;
+}
+.fieldset {
+    overflow: auto;
+    width: 420px;
+}
+span {
+    color: red;
+}
+.btn-success,.btn-cancel {
+    width: 50px;
+    height: 28px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 2px;
+    cursor: pointer; 
+    float: right;
+    overflow: auto;
+}
+.btn-success {
+    background-color: #126db3;
+    color: white;
+    border: 1px solid #c6c6c6;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+.btn-cancel {
+    border: 1px solid #D7D7DC;
+    background-color: #f0f0f0;
+}
+.btn-success:hover {
+    background-color: #167ac6; 
+}
+.btn-cancel:hover {
+    background-color: #D7D7DC;
+}
+.reply-box {
+    display: none;
+    /*width: 500px; */    
+}
+li {
+    list-style: none;
+    margin-top: 25px;
+    line-height: 17px;
+    padding-left: 15px;
+}
+ul {    
+    padding-left: 0;
+    font-size: 14px;
+}
+ul span {
+    color: #126db3;
+}
+ul li .content-type {
+    line-height: 17px;
+    font-size: 14px;
+}
+.reply {
+    width: 30px;
+    padding: 0;
+    color: #9C9C9C;
+    border: 0px solid;
+    cursor: pointer; 
+    font-size: 11px;
+    background-color: transparent;
+    display: inline-block;
+
+}
+.reply:hover {
+   color: #3B3B3B;
+}

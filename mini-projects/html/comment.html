@@ -1,0 +1,59 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title> Comment page </title>
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<form>
+			<div class="box">
+				<div class="fieldset">
+					<label for="name">Name:</label>
+					<span title="required field">*</span><br>
+					<input type="text" id="name" placeholder="Name" class="control" /><br><br>
+					<label for="comment">Comment:</label>
+					<span title="required field">*</span><br>
+					<textarea class="content" id="comment" name="message" placeholder="Write up something" type="text"></textarea> <br>
+					<input type="button" class="btn-success" value="Post" />
+					<input type="button" class="btn-cancel" value="Cancel" />
+				</div>
+				<ul class="message-feed">
+					<!-- <li>
+						<span>jahnavi</span>
+						<div class="content-type">Hi there</div>
+						<input type='button' class='reply' value='Reply' disabled  />
+					</li>
+					<li>
+						<span>sathvi</span>
+						<div class="content-type">Hi there</div>
+						<input type='button' class='reply' value='Reply' disabled  />
+					</li>
+					<li>
+						<span>ketan</span>
+						<div class="content-type">Hi there</div>
+						<input type='button' class='reply' value='Reply' disabled  />
+					</li> -->
+			    </ul>
+			</div>
+			<div class="reply-box">
+				    <label for="name">Name:</label>
+					<span title="required field">*</span><br>
+					<input type="text" id="reply-name" placeholder="Name" class="control" /><br><br>
+					<label for="comment">Comment:</label>
+					<span title="required field">*</span><br>
+    				<textarea class="content" id="reply-comment" name="message" placeholder="Write up something" type="text"></textarea>
+    				<input type="button" class="btn-success reply-submit" value="post" />
+					<input type="button" class="btn-cancel reply-cancel" value="cancel" />
+			</div>
+			   
+		</form>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="../js/vendor/jquery-2.1.4.min.js"></script> 
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		  <script src="../js/comment.js"></script> 
+	</body>
+	</html>
